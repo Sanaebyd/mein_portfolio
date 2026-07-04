@@ -1,4 +1,5 @@
-body { color: darkseagreen;}
+body { color: darkseagreen;
+ font-family: "Inter", sans-serif;}
 .center { 
     text-align:center;
 }
