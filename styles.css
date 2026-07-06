@@ -44,8 +44,14 @@ img.center {
 }
 
 .center.bio {
-    margin-top: 50px;
-    margin-left: 150px;
-    margin-right: 150px;
-    font-weight: bold;
+  max-width: 700px;
+  margin: 20px auto;
+  font-weight: bold;
+}
+#ueber-mich > * {
+  margin-bottom: 24px;
+}
+
+#ueber-mich > *:last-child {
+  margin-bottom: 0;
 }
