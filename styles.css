@@ -3,6 +3,9 @@ body { color: darkseagreen;
 .center { 
     text-align:center;
 }
+html {
+  scroll-behavior: smooth;
+}
 img.center {
   display: block;
   margin: 0 auto;
