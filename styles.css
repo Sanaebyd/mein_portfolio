@@ -55,7 +55,13 @@ img.center {
 #ueber-mich > *:last-child {
   margin-bottom: 0;
 }
-
+#ueber-mich,
+#projekte,
+#kontakt {
+  min-height: 100vh;
+  padding: 60px 20px;
+  box-sizing: border-box;
+}
 #projekte {
   background-color: hsl(120, 23%, 97%);
 }
