@@ -14,3 +14,16 @@ img.center {
   gap: 60px;
   border-bottom: 1px solid darkseagreen;
 }
+.navigation a,
+.navigation a:visited {
+  color: white;
+  background-color: darkseagreen;
+  padding: 8px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navigation a:hover {
+  background-color: #6b9373;
+}
