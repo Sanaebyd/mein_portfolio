@@ -1,11 +1,26 @@
-body { color: darkseagreen;
- font-family: "Inter", sans-serif;}
-.center { 
-    text-align:center;
+* {
+  box-sizing: border-box;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
+body {
+  color: darkseagreen;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.bold,
+.center.bold {
+  font-weight: bold;
+}
+
 img.center {
   display: block;
   margin: 0 auto;
@@ -15,20 +30,18 @@ img.center {
   object-fit: cover;
 }
 
-.center.bold {font-weight: bold;}
-
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 24px 40px;
 }
 
-.navigation{
+.navigation {
   display: flex;
   gap: 60px;
-
-
 }
+
 .navigation a,
 .navigation a:visited {
   color: white;
@@ -44,32 +57,31 @@ img.center {
 }
 
 .center.bio {
-  max-width: 1000px;
-  margin: 24px auto;
+  max-width: 900px;
+  margin: 20px auto;
   font-weight: bold;
 }
-#ueber-mich > * {
-  margin-bottom: 24px;
-}
 
-#ueber-mich > *:last-child {
-  margin-bottom: 0;
-}
-#ueber-mich,
-#projekte,
-#kontakt {
-  min-height: 100vh;
+/* Abschnitte: jeder wirkt wie ein eigener Block */
+
+#ueber-mich {
+  min-height: calc(100vh - 100px);
   padding: 60px 20px;
-  box-sizing: border-box;
-}
-#projekte {
-  background-color: hsl(120, 23%, 97%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  scroll-margin-top: 20px;
 }
 
-#kontakt {
-  background-color: #ffffff;
-}
 #projekte,
 #kontakt {
-  border-top: 1px solid darkseagreen;
+  padding: 64px 20px;
+  border-top: 1px solid #d8e4dd;
+  scroll-margin-top: 20px;
+}
+
+#ueber-mich > *:last-child,
+#projekte > *:last-child,
+#kontakt > *:last-child {
+  margin-bottom: 0;
 }
