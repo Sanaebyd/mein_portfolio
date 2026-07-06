@@ -17,6 +17,7 @@ img.center {
 .navigation{
   display: flex;
   gap: 60px;
+  
 
 }
 .navigation a,
