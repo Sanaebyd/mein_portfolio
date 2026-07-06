@@ -10,5 +10,6 @@ img.center {
 .center.bold {font-weight: bold;}
 
 .navigation{
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
 }
