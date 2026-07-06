@@ -64,3 +64,14 @@ img.center {
   flex-direction: column;
   justify-content: center;
 }
+#projekte {
+  background-color: hsl(120, 23%, 97%);
+}
+
+#kontakt {
+  background-color: #ffffff;
+}
+#projekte,
+#kontakt {
+  border-top: 1px solid darkseagreen;
+}
