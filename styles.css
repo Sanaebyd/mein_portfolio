@@ -40,3 +40,7 @@ img.center {
   background-color: #6b9373;
 }
 
+.center.bio {
+    margin-bottom: 2rem;
+    padding: 0 2rem;
+    max-width: 56.25rem; }
