@@ -55,3 +55,12 @@ img.center {
 #ueber-mich > *:last-child {
   margin-bottom: 0;
 }
+#ueber-mich,
+#projekte,
+#kontakt {
+  min-height: 100vh;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
