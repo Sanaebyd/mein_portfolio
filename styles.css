@@ -13,5 +13,6 @@ img.center {
   display: flex;
   justify-content: center;
   gap: 60px;
-  border-bottom: 1px solid darkseagreen;
+  border-bottom: 1px solid darkseagreen
+  ;
 }
