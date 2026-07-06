@@ -44,8 +44,8 @@ img.center {
 }
 
 .center.bio {
-  max-width: 700px;
-  margin: 20px auto;
+  max-width: 1000px;
+  margin: 24px auto;
   font-weight: bold;
 }
 #ueber-mich > * {
