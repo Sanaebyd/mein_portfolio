@@ -8,3 +8,7 @@ img.center {
   margin: 0 auto;
 }
 .center.bold {font-weight: bold;}
+
+.navigation{
+  display: inline-block;
+}
