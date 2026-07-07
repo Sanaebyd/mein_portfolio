@@ -97,13 +97,13 @@ img.center {
   font-weight: bold;
 }
 
-.biobilder {
+.ueber-mich.biobilder {
   flex: 1;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
 }
 
-.biobilder img {
+.ueber-mich.biobilder img {
   width: 200px;
 }
