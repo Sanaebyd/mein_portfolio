@@ -87,23 +87,3 @@ img.center {
   margin-bottom: 0;
 }
 
-.ueber-mich-row{
-  display: flex;
-  gap: 20px;
-}
-
-.bio {
-  flex: 1;
-  font-weight: bold;
-}
-
-.ueber-mich.biobilder {
-  flex: 1;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.ueber-mich.biobilder img {
-  width: 200px;
-}
