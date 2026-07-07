@@ -87,3 +87,6 @@ img.center {
   margin-bottom: 0;
 }
 
+.container-bio{
+  display: flex;
+}
