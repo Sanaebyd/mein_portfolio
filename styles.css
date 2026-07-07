@@ -86,3 +86,23 @@ img.center {
 #kontakt > *:last-child {
   margin-bottom: 0;
 }
+
+.ueber-mich{
+  display: flex;
+  gap: 20px;
+}
+
+.bio {
+  flex: 1;
+}
+
+.biobilder {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.biobilder img {
+  width: 200px;
+}
