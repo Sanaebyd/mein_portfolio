@@ -89,4 +89,7 @@ img.center {
 
 .container-bio{
   display: flex;
+  align-items: center;
+  gap: 30px;
+
 }
