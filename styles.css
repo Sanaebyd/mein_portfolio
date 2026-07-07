@@ -94,6 +94,7 @@ img.center {
 
 .bio {
   flex: 1;
+  font-weight: bold;
 }
 
 .biobilder {
