@@ -91,5 +91,15 @@ img.center {
   display: flex;
   align-items: center;
   gap: 30px;
-  justify-content: space-between;
 }
+.bio {
+  font-weight: bold;
+  flex:3
+}
+.hantel {
+    width: 150px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex: 1
+}  
