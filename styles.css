@@ -109,10 +109,13 @@ img.center {
   width: 40px;
   height: auto;
 }
-#ueber-mich h2 {
-  margin: 0 0 20px 0;
 
+.section-title{
+  text-align: center;
+  margin: 0 0 20px 0;
 }
+
+
 #ueber-mich h2,
 #ueber-mich p,
 #ueber-mich .bio {
