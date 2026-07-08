@@ -60,6 +60,7 @@ img.center {
   max-width: 900px;
   margin: 0 auto;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 /* Abschnitte: jeder wirkt wie ein eigener Block */
@@ -90,7 +91,7 @@ img.center {
   gap: 30px;
   max-width: 900px;
   margin: 0 auto;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .bio {
