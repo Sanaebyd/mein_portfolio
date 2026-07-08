@@ -113,3 +113,8 @@ img.center {
   margin: 0 0 20px 0;
 
 }
+#ueber-mich h2,
+#ueber-mich p,
+#ueber-mich .bio {
+  margin: 0;
+}
