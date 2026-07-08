@@ -71,8 +71,7 @@ img.center {
   padding: 60px 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  scroll-margin-top: 20px;
+  justify-content: flex-start;
 }
 
 #projekte,
@@ -99,7 +98,5 @@ img.center {
 .hantel {
     width: 150px;
     height: auto;
-    display: flex;
-    justify-content: center;
     flex: 1
 }  
