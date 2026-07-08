@@ -107,7 +107,8 @@ img.center {
   width: 40px;
   height: auto;
 }
-#ueber-mich {
+#ueber-mich h2 {
   margin-top: 0;
   margin-bottom: 20px;
+
 }
