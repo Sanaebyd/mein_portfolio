@@ -100,16 +100,7 @@ img.center {
 }
 
 
-.hantel {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-}
-.buch {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-}
+
 
 .section-title{
   text-align: center;
