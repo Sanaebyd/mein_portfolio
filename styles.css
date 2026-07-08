@@ -67,11 +67,8 @@ img.center {
 #ueber-mich,
 #projekte,
 #kontakt {
-  min-height: 80vh;
   padding: 60px 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  
 }
 
 
