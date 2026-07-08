@@ -88,23 +88,20 @@ img.center {
   display: flex;
   align-items: center;
   gap: 30px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
 .bio {
-  flex: 75%;
+  flex: 3;
   font-weight: bold;
 }
 
-.hantel-container {
-  flex: 25%;
-  display: flex;
-  justify-content: center;
-}
 
 .hantel {
-  width: 40px;
-  height: auto;
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
 .section-title{
