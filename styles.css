@@ -97,6 +97,7 @@ img.center {
 .bio {
   flex: 2;
   font-weight: bold;
+  text-align: center;
 }
 
 
