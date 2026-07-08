@@ -92,12 +92,12 @@ img.center {
 }
 
 .bio {
-  flex: 2;
+  flex: 75%;
   font-weight: bold;
 }
 
 .hantel-container {
-  flex: 1;
+  flex: 25%;
   display: flex;
   justify-content: center;
 }
