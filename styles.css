@@ -133,5 +133,9 @@ img.center {
   flex-direction: column;
   gap: 15px;
   border: 2px darkseagreen;
+}
+
+.card .h3{
+  justify-content: center;
 
 }
