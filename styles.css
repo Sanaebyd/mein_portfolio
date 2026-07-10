@@ -131,7 +131,7 @@ img.center {
   box-shadow: 0 10px 20px rgba(0,0,0,0.15);
   display: flex;
   flex-direction: column;
-  gap: 15px
+  gap: 15px;
   border: 2px darkseagreen;
 
 }
