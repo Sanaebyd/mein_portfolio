@@ -93,7 +93,7 @@ img.center {
   margin: 0 auto;
   justify-content: space-evenly;
   border:2px solid #6b9373;
-  padding: 20px;
+  padding: 25px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.15);
   border-radius: 15px;
 }
