@@ -165,3 +165,8 @@ img.center {
     color: #588061;
     font-weight: 500;
 }
+
+.social-links{
+  display: flex;
+  justify-content: center;
+}
