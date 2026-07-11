@@ -92,7 +92,7 @@ img.center {
   max-width: 900px;
   margin: 0 auto;
   justify-content: space-evenly;
-  border:2px #6b9373;
+  border:2px solid #6b9373;
 }
 
 .bio {
